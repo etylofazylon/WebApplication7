@@ -75,10 +75,15 @@
         </div>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
+               
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application </p>
+                <p>
+                    <iframe src="https://docs.microsoft.com/en-us/dotnet/api/system.net.webrequest.begingetresponse?view=netframework-4.7.1"></iframe>
+
+                </p>
             </footer>
         </div>
     </form>
